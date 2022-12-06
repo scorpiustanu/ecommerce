@@ -1,0 +1,31 @@
+{
+  "name": "ecommerceApi",
+  "version": "1.0.0",
+  "description": "This is the ecommerce website api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scorpiustanu/ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scorpiustanu/ecommerce/issues"
+  },
+  "homepage": "https://github.com/scorpiustanu/ecommerce#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "find-config": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "stripe": "^10.17.0"
+  }
+}
